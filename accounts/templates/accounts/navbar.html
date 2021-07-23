@@ -18,4 +18,7 @@
       </li>
     </ul>
   </div>
+    <span style="font-size: 18px;color: #fff;margin-right: 20px">Hello, {{ request.user }} </span>
+    <a class="hello-msg" style="font-size: 18px;color: #fff;margin-right: 20px" href="{% url 'accounts:logout' %}" style=""> LogOut</a>
+
 </nav>
